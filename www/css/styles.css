@@ -1,0 +1,82 @@
+/*
+   statusbar-overlay sets the background color for the overlay. Black text is the default when the statusbar plugin is not added. When the
+   statusbar plugin is added, it also adds default setting to make the content white via:
+
+       <preference name="StatusBarStyle" value="lightcontent"/>
+
+   Setting the background color to black will allow the default light content (white text/icons) to show on it. The statusbar plugin is included
+   in the config.xml file and will be added by the CLI when you build locally.
+
+   See https://github.com/apache/cordova-plugin-statusbar
+*/
+
+.statusbar-overlay {
+    background: #000000;
+}
+
+.button {
+    border: 2px solid black !important;
+    font-weight: bold  !important;
+    height: 50px  !important;
+    font-size: 25px;
+    
+}
+
+.content-block {
+    padding: 5px !important;
+}
+
+.card {
+    border-radius: 10px;
+}
+
+.card-content {
+    padding-bottom: 5px;
+}
+
+.card-header {
+    color: yellow;
+}
+
+.item-content {
+    list-style: none;
+    padding-bottom: 10px;
+    margin-top: 5px;
+    padding-right: 25px;
+}
+.media-list {
+    list-style: none;
+    padding: 0;
+    background-color: #404040;  
+    color: yellow;
+}
+
+.item-media img {
+    width: 50px;
+    height: 70px;
+    list-style: none;
+}
+
+#movieImg {
+    width: 50%;
+    height: auto;
+    margin-left: 20%;
+    margin-top: 10px;
+}
+
+.demo-card-header-pic .card-header {
+  height: 40vw;
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+}
+.demo-card-header-pic .card-content-padding .date{
+  color: #8e8e93;
+}
+
+.item-title {
+    border-bottom:1px solid #202020
+}
+.item-subtitle {
+    border-bottom:1px solid #202020
+}
